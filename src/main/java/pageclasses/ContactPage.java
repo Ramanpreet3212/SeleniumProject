@@ -40,12 +40,12 @@ public class ContactPage {
 	}
 
 	
-	 /* public void SelectSubject() { WebElement dropDownEle =
+	 public void SelectSubject() { WebElement dropDownEle =
 	  driver.findElement(selectOption); Select dropDownOption = new Select(dropDownEle); 
 	  WebElement payment = driver.findElement(payments);
-	  dropDownOption.deselectByVisibleText("payment");
+	  dropDownOption.selectByVisibleText("payment");
 	  
-	  }*/
+	  }
 	 
 	public void enterMessage(String messaage) {
 		driver.findElement(messageText).sendKeys(messaage);
